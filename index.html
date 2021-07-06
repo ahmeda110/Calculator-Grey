@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+
+    <link rel="stylesheet" href="/public/src/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script defer src="/client/script.js"></script>
+</head>
+<body>
+    <section class="section__1">
+        <div clas="row">
+            <div class="column left__operand">
+                <label for="left__input">Left Operand</label><br><br>
+                <input type="text" id="left__input"><br>
+                <button class="group calculate" type="button">Calculate</button>
+                <p class="group">Expression: &ensp;<span class="expression"></span></p>
+                <p class="group">Result: &ensp;<span class="result"></span></p>
+            </div>
+
+            <div class="column middle__operand">
+                <form>
+                    <input id="Add" type="radio" name="operation" value="+">
+                    <label for="Add">+ Addition</label><br>
+                    <input id="Sub" type="radio" name="operation" value="-">
+                    <label for="Sub">- Subtraction</label><br>
+                    <input id="Mult" type="radio" name="operation" value="*">
+                    <label for="Mult">* Multiplication</label><br>
+                    <input id="Div" type="radio" name="operation" value="/">
+                    <label for="Div">/ Division</label><br>
+                    <input id="Rem" type="radio" name="operation" value="%">
+                    <label for="Rem">% Remainder</label><br>
+                </form>
+            </div>
+
+            <div class="column right__operand">
+                <label for="right__input">Right Operand</label><br><br>
+                <input type="text" id="right__input" name="fname">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

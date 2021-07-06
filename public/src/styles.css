@@ -1,0 +1,26 @@
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.middle__operand {
+    margin-top: 3.5rem;
+}
+
+label {
+    position: absolute;
+}
+
+section {
+    margin: 3em 0.5rem;
+}
+
+.group {
+    margin-top: 7rem;
+}
