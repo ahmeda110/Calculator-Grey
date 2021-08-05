@@ -14,7 +14,9 @@ Error Handling was Implemented: Missing operator, operand, invalid inputs, etc.
 
 1- git clone (https/ssh) depending on your permissions<br>
 2- download the .jar file at this link https://jar-download.com/artifacts/org.json<br>
-3- locate and extract the json.jar file right click on the project and go to build path -add external jar -hit apply (eclipse)<br>
-4- javac Manin.java<br>
-5- java Main to start the server<br>
-6- Run the HTML page (live-server)<br>
+3- locate and extract the json.jar file, right click on the project and go to build path<br> 
+4- add external jar; hit apply (eclipse)<br>
+5- javac Manin.java<br>
+6- java Main to start the server<br>
+7- Run the HTML page (live-server)<br>
+8- Now the client-side and back-end are connected and the app is ready to go
