@@ -2,7 +2,7 @@
 
 Utalized Java, JS, JQuery, HTML, CSS, etc
 
-status: Complete
+Status: Complete
 
 # ABOUT
 
