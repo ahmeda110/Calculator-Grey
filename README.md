@@ -1,6 +1,6 @@
 # Calculator-Grey
 
-Utalized Java, JS, JQuery, HTML, CSS, etc
+Utilized Java, JS, JQuery, HTML, CSS, etc
 
 Status: Complete
 
